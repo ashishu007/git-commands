@@ -10,7 +10,7 @@ Now create a directory on your local machine and write some codes there.
 
 Initialize it with:
 
-git init
+```git init```
 
 This can be tered as "local".
 
