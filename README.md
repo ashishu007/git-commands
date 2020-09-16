@@ -55,3 +55,7 @@ You can also clone an already existing/developed library using:
 ## To untrack the tracked changes:
 
     git rm --cached . -r (This will untrcak all the changes)
+    
+## Change the remote url
+    
+    git remote set-url origin new.git.url/here
