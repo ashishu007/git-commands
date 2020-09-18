@@ -56,6 +56,10 @@ You can also clone an already existing/developed library using:
 
     git rm --cached . -r (This will untrcak all the changes)
     
+## Get the remote url
+    
+    git config --get remote.origin.url
+
 ## Change the remote url
     
     git remote set-url origin new.git.url/here
