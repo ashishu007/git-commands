@@ -63,3 +63,9 @@ You can also clone an already existing/developed library using:
 ## Change the remote url
     
     git remote set-url origin new.git.url/here
+    
+## Change the local repo name
+    
+    git branch -mv master main
+    
+    git branch -mv old_name new_name
