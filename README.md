@@ -14,9 +14,9 @@ git clone https://github.com/your_username/myRepo.git
 
 ### Alternatively
 
-If you already have a directory on your local machine and want it to connect with the GitHub repo, you can do this
+If you already have a directory on your local machine and want to connect with the GitHub repo, you can do like this -
 
-Initialize it with:
+Open the terminal inside the folder and initialize it with:
 
 ```
 git init
