@@ -6,23 +6,37 @@ Let the name of repo be ```myRepo```
 
 This repo can be termed as ```remote```.
 
-## Now create a directory on your local machine and write some codes there.
+## Now Clone the repo to the local machine
+
+```
+git clone https://github.com/your_username/myRepo.git
+```
+
+### Alternatively
+
+If you already have a directory on your local machine and want it to connect with the GitHub repo, you can do this
 
 Initialize it with:
 
-    git init
+```
+git init
+```
 
 This can be tered as ```local```.
 
-## Synchronization
+### Synchronization
 
 Now connect your ```local``` with ```remote``` by using this command:
 
-    git remote add origin https://github.com/your_username/myRepo.git
+```
+git remote add origin https://github.com/your_username/myRepo.git
+```
 
 Then synchronize your ```local``` with ```remote``` by using this command:
 
-    git pull origin master --allow-unrelated-histories
+```
+git pull origin master --allow-unrelated-histories
+```
 
 Now your ```local``` code-base is synced with your ```remote``` GitHub repo.
 
@@ -42,30 +56,44 @@ For a specific branch, change the third command as:
 
 You can also clone an already existing/developed library using:
 
-    git clone https://github.com/repo_owners_username/repo_name.git
+```
+git clone https://github.com/repo_owners_username/repo_name.git
+```
 
 ## To clone a specific branch, use:
-    
-    git clone -b branch_name https://github.com/repo_owners_username/repo_name.git
+
+```
+git clone -b branch_name https://github.com/repo_owners_username/repo_name.git
+```
 
 ## To delete a branch:
 
-    git push --delete origin branch_name
+```
+git push --delete origin branch_name
+```
 
 ## To untrack the tracked changes:
 
-    git rm --cached . -r (This will untrcak all the changes)
-    
+```
+git rm --cached . -r (This will untrcak all the changes)
+```
+
 ## Get the remote url
-    
-    git config --get remote.origin.url
+
+```
+git config --get remote.origin.url
+```
 
 ## Change the remote url
-    
-    git remote set-url origin new.git.url/here
-    
+
+```
+git remote set-url origin new.git.url/here
+```
+
 ## Change the local repo name
+
+```
+git branch -mv master main
     
-    git branch -mv master main
-    
-    git branch -mv old_name new_name
+git branch -mv old_name new_name
+```
